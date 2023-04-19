@@ -1,0 +1,1563 @@
+JSON AST (compact format):
+
+
+======= .//solidity_dataset_curated//timestamp_dependency\8141.sol =======
+{
+	"absolutePath" : ".//solidity_dataset_curated//timestamp_dependency\\8141.sol",
+	"exportedSymbols" : 
+	{
+		"Inner1WithEth" : 
+		[
+			41
+		],
+		"Inner2WithEth" : 
+		[
+			61
+		],
+		"Inner3WithEth" : 
+		[
+			81
+		],
+		"Inner4WithEth" : 
+		[
+			114
+		],
+		"OuterWithEth" : 
+		[
+			21
+		]
+	},
+	"id" : 115,
+	"nodeType" : "SourceUnit",
+	"nodes" : 
+	[
+		{
+			"id" : 1,
+			"literals" : 
+			[
+				"solidity",
+				"^",
+				"0.4",
+				".24"
+			],
+			"nodeType" : "PragmaDirective",
+			"src" : "0:24:0"
+		},
+		{
+			"baseContracts" : [],
+			"contractDependencies" : 
+			[
+				41
+			],
+			"contractKind" : "contract",
+			"documentation" : null,
+			"fullyImplemented" : true,
+			"id" : 21,
+			"linearizedBaseContracts" : 
+			[
+				21
+			],
+			"name" : "OuterWithEth",
+			"nodeType" : "ContractDefinition",
+			"nodes" : 
+			[
+				{
+					"constant" : false,
+					"id" : 6,
+					"name" : "myInner1",
+					"nodeType" : "VariableDeclaration",
+					"scope" : 21,
+					"src" : "54:51:0",
+					"stateVariable" : true,
+					"storageLocation" : "default",
+					"typeDescriptions" : 
+					{
+						"typeIdentifier" : "t_contract$_Inner1WithEth_$41",
+						"typeString" : "contract Inner1WithEth"
+					},
+					"typeName" : 
+					{
+						"contractScope" : null,
+						"id" : 2,
+						"name" : "Inner1WithEth",
+						"nodeType" : "UserDefinedTypeName",
+						"referencedDeclaration" : 41,
+						"src" : "54:13:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_contract$_Inner1WithEth_$41",
+							"typeString" : "contract Inner1WithEth"
+						}
+					},
+					"value" : 
+					{
+						"argumentTypes" : null,
+						"arguments" : [],
+						"expression" : 
+						{
+							"argumentTypes" : [],
+							"id" : 4,
+							"isConstant" : false,
+							"isLValue" : false,
+							"isPure" : false,
+							"lValueRequested" : false,
+							"nodeType" : "NewExpression",
+							"src" : "86:17:0",
+							"typeDescriptions" : 
+							{
+								"typeIdentifier" : "t_function_creation_nonpayable$__$returns$_t_contract$_Inner1WithEth_$41_$",
+								"typeString" : "function () returns (contract Inner1WithEth)"
+							},
+							"typeName" : 
+							{
+								"contractScope" : null,
+								"id" : 3,
+								"name" : "Inner1WithEth",
+								"nodeType" : "UserDefinedTypeName",
+								"referencedDeclaration" : 41,
+								"src" : "90:13:0",
+								"typeDescriptions" : 
+								{
+									"typeIdentifier" : "t_contract$_Inner1WithEth_$41",
+									"typeString" : "contract Inner1WithEth"
+								}
+							}
+						},
+						"id" : 5,
+						"isConstant" : false,
+						"isLValue" : false,
+						"isPure" : false,
+						"kind" : "functionCall",
+						"lValueRequested" : false,
+						"names" : [],
+						"nodeType" : "FunctionCall",
+						"src" : "86:19:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_contract$_Inner1WithEth_$41",
+							"typeString" : "contract Inner1WithEth"
+						}
+					},
+					"visibility" : "public"
+				},
+				{
+					"body" : 
+					{
+						"id" : 19,
+						"nodeType" : "Block",
+						"src" : "167:70:0",
+						"statements" : 
+						[
+							{
+								"expression" : 
+								{
+									"argumentTypes" : null,
+									"arguments" : [],
+									"expression" : 
+									{
+										"argumentTypes" : [],
+										"arguments" : 
+										[
+											{
+												"argumentTypes" : null,
+												"expression" : 
+												{
+													"argumentTypes" : null,
+													"id" : 14,
+													"name" : "msg",
+													"nodeType" : "Identifier",
+													"overloadedDeclarations" : [],
+													"referencedDeclaration" : 129,
+													"src" : "218:3:0",
+													"typeDescriptions" : 
+													{
+														"typeIdentifier" : "t_magic_message",
+														"typeString" : "msg"
+													}
+												},
+												"id" : 15,
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : false,
+												"lValueRequested" : false,
+												"memberName" : "value",
+												"nodeType" : "MemberAccess",
+												"referencedDeclaration" : null,
+												"src" : "218:9:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_uint256",
+													"typeString" : "uint256"
+												}
+											}
+										],
+										"expression" : 
+										{
+											"argumentTypes" : 
+											[
+												{
+													"typeIdentifier" : "t_uint256",
+													"typeString" : "uint256"
+												}
+											],
+											"expression" : 
+											{
+												"argumentTypes" : null,
+												"expression" : 
+												{
+													"argumentTypes" : null,
+													"id" : 9,
+													"name" : "myInner1",
+													"nodeType" : "Identifier",
+													"overloadedDeclarations" : [],
+													"referencedDeclaration" : 6,
+													"src" : "177:8:0",
+													"typeDescriptions" : 
+													{
+														"typeIdentifier" : "t_contract$_Inner1WithEth_$41",
+														"typeString" : "contract Inner1WithEth"
+													}
+												},
+												"id" : 12,
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : false,
+												"lValueRequested" : false,
+												"memberName" : "callSomeFunctionViaInner1",
+												"nodeType" : "MemberAccess",
+												"referencedDeclaration" : 40,
+												"src" : "177:34:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_function_external_payable$__$returns$__$",
+													"typeString" : "function () payable external"
+												}
+											},
+											"id" : 13,
+											"isConstant" : false,
+											"isLValue" : false,
+											"isPure" : false,
+											"lValueRequested" : false,
+											"memberName" : "value",
+											"nodeType" : "MemberAccess",
+											"referencedDeclaration" : null,
+											"src" : "177:40:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_function_setvalue_nonpayable$_t_uint256_$returns$_t_function_external_payable$__$returns$__$value_$",
+												"typeString" : "function (uint256) returns (function () payable external)"
+											}
+										},
+										"id" : 16,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : false,
+										"kind" : "functionCall",
+										"lValueRequested" : false,
+										"names" : [],
+										"nodeType" : "FunctionCall",
+										"src" : "177:51:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_function_external_payable$__$returns$__$value",
+											"typeString" : "function () payable external"
+										}
+									},
+									"id" : 17,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"kind" : "functionCall",
+									"lValueRequested" : false,
+									"names" : [],
+									"nodeType" : "FunctionCall",
+									"src" : "177:53:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_tuple$__$",
+										"typeString" : "tuple()"
+									}
+								},
+								"id" : 18,
+								"nodeType" : "ExpressionStatement",
+								"src" : "177:53:0"
+							}
+						]
+					},
+					"documentation" : null,
+					"id" : 20,
+					"implemented" : true,
+					"isConstructor" : false,
+					"isDeclaredConst" : false,
+					"modifiers" : [],
+					"name" : "callSomeFunctionViaOuter",
+					"nodeType" : "FunctionDefinition",
+					"parameters" : 
+					{
+						"id" : 7,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "149:2:0"
+					},
+					"payable" : true,
+					"returnParameters" : 
+					{
+						"id" : 8,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "167:0:0"
+					},
+					"scope" : 21,
+					"src" : "116:121:0",
+					"stateMutability" : "payable",
+					"superFunction" : null,
+					"visibility" : "public"
+				}
+			],
+			"scope" : 115,
+			"src" : "26:213:0"
+		},
+		{
+			"baseContracts" : [],
+			"contractDependencies" : 
+			[
+				61
+			],
+			"contractKind" : "contract",
+			"documentation" : null,
+			"fullyImplemented" : true,
+			"id" : 41,
+			"linearizedBaseContracts" : 
+			[
+				41
+			],
+			"name" : "Inner1WithEth",
+			"nodeType" : "ContractDefinition",
+			"nodes" : 
+			[
+				{
+					"constant" : false,
+					"id" : 26,
+					"name" : "myInner2",
+					"nodeType" : "VariableDeclaration",
+					"scope" : 41,
+					"src" : "270:51:0",
+					"stateVariable" : true,
+					"storageLocation" : "default",
+					"typeDescriptions" : 
+					{
+						"typeIdentifier" : "t_contract$_Inner2WithEth_$61",
+						"typeString" : "contract Inner2WithEth"
+					},
+					"typeName" : 
+					{
+						"contractScope" : null,
+						"id" : 22,
+						"name" : "Inner2WithEth",
+						"nodeType" : "UserDefinedTypeName",
+						"referencedDeclaration" : 61,
+						"src" : "270:13:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_contract$_Inner2WithEth_$61",
+							"typeString" : "contract Inner2WithEth"
+						}
+					},
+					"value" : 
+					{
+						"argumentTypes" : null,
+						"arguments" : [],
+						"expression" : 
+						{
+							"argumentTypes" : [],
+							"id" : 24,
+							"isConstant" : false,
+							"isLValue" : false,
+							"isPure" : false,
+							"lValueRequested" : false,
+							"nodeType" : "NewExpression",
+							"src" : "302:17:0",
+							"typeDescriptions" : 
+							{
+								"typeIdentifier" : "t_function_creation_nonpayable$__$returns$_t_contract$_Inner2WithEth_$61_$",
+								"typeString" : "function () returns (contract Inner2WithEth)"
+							},
+							"typeName" : 
+							{
+								"contractScope" : null,
+								"id" : 23,
+								"name" : "Inner2WithEth",
+								"nodeType" : "UserDefinedTypeName",
+								"referencedDeclaration" : 61,
+								"src" : "306:13:0",
+								"typeDescriptions" : 
+								{
+									"typeIdentifier" : "t_contract$_Inner2WithEth_$61",
+									"typeString" : "contract Inner2WithEth"
+								}
+							}
+						},
+						"id" : 25,
+						"isConstant" : false,
+						"isLValue" : false,
+						"isPure" : false,
+						"kind" : "functionCall",
+						"lValueRequested" : false,
+						"names" : [],
+						"nodeType" : "FunctionCall",
+						"src" : "302:19:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_contract$_Inner2WithEth_$61",
+							"typeString" : "contract Inner2WithEth"
+						}
+					},
+					"visibility" : "public"
+				},
+				{
+					"body" : 
+					{
+						"id" : 39,
+						"nodeType" : "Block",
+						"src" : "383:70:0",
+						"statements" : 
+						[
+							{
+								"expression" : 
+								{
+									"argumentTypes" : null,
+									"arguments" : [],
+									"expression" : 
+									{
+										"argumentTypes" : [],
+										"arguments" : 
+										[
+											{
+												"argumentTypes" : null,
+												"expression" : 
+												{
+													"argumentTypes" : null,
+													"id" : 34,
+													"name" : "msg",
+													"nodeType" : "Identifier",
+													"overloadedDeclarations" : [],
+													"referencedDeclaration" : 129,
+													"src" : "434:3:0",
+													"typeDescriptions" : 
+													{
+														"typeIdentifier" : "t_magic_message",
+														"typeString" : "msg"
+													}
+												},
+												"id" : 35,
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : false,
+												"lValueRequested" : false,
+												"memberName" : "value",
+												"nodeType" : "MemberAccess",
+												"referencedDeclaration" : null,
+												"src" : "434:9:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_uint256",
+													"typeString" : "uint256"
+												}
+											}
+										],
+										"expression" : 
+										{
+											"argumentTypes" : 
+											[
+												{
+													"typeIdentifier" : "t_uint256",
+													"typeString" : "uint256"
+												}
+											],
+											"expression" : 
+											{
+												"argumentTypes" : null,
+												"expression" : 
+												{
+													"argumentTypes" : null,
+													"id" : 29,
+													"name" : "myInner2",
+													"nodeType" : "Identifier",
+													"overloadedDeclarations" : [],
+													"referencedDeclaration" : 26,
+													"src" : "393:8:0",
+													"typeDescriptions" : 
+													{
+														"typeIdentifier" : "t_contract$_Inner2WithEth_$61",
+														"typeString" : "contract Inner2WithEth"
+													}
+												},
+												"id" : 32,
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : false,
+												"lValueRequested" : false,
+												"memberName" : "callSomeFunctionViaInner2",
+												"nodeType" : "MemberAccess",
+												"referencedDeclaration" : 60,
+												"src" : "393:34:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_function_external_payable$__$returns$__$",
+													"typeString" : "function () payable external"
+												}
+											},
+											"id" : 33,
+											"isConstant" : false,
+											"isLValue" : false,
+											"isPure" : false,
+											"lValueRequested" : false,
+											"memberName" : "value",
+											"nodeType" : "MemberAccess",
+											"referencedDeclaration" : null,
+											"src" : "393:40:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_function_setvalue_nonpayable$_t_uint256_$returns$_t_function_external_payable$__$returns$__$value_$",
+												"typeString" : "function (uint256) returns (function () payable external)"
+											}
+										},
+										"id" : 36,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : false,
+										"kind" : "functionCall",
+										"lValueRequested" : false,
+										"names" : [],
+										"nodeType" : "FunctionCall",
+										"src" : "393:51:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_function_external_payable$__$returns$__$value",
+											"typeString" : "function () payable external"
+										}
+									},
+									"id" : 37,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"kind" : "functionCall",
+									"lValueRequested" : false,
+									"names" : [],
+									"nodeType" : "FunctionCall",
+									"src" : "393:53:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_tuple$__$",
+										"typeString" : "tuple()"
+									}
+								},
+								"id" : 38,
+								"nodeType" : "ExpressionStatement",
+								"src" : "393:53:0"
+							}
+						]
+					},
+					"documentation" : null,
+					"id" : 40,
+					"implemented" : true,
+					"isConstructor" : false,
+					"isDeclaredConst" : false,
+					"modifiers" : [],
+					"name" : "callSomeFunctionViaInner1",
+					"nodeType" : "FunctionDefinition",
+					"parameters" : 
+					{
+						"id" : 27,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "366:2:0"
+					},
+					"payable" : true,
+					"returnParameters" : 
+					{
+						"id" : 28,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "383:0:0"
+					},
+					"scope" : 41,
+					"src" : "332:121:0",
+					"stateMutability" : "payable",
+					"superFunction" : null,
+					"visibility" : "public"
+				}
+			],
+			"scope" : 115,
+			"src" : "241:214:0"
+		},
+		{
+			"baseContracts" : [],
+			"contractDependencies" : 
+			[
+				81
+			],
+			"contractKind" : "contract",
+			"documentation" : null,
+			"fullyImplemented" : true,
+			"id" : 61,
+			"linearizedBaseContracts" : 
+			[
+				61
+			],
+			"name" : "Inner2WithEth",
+			"nodeType" : "ContractDefinition",
+			"nodes" : 
+			[
+				{
+					"constant" : false,
+					"id" : 46,
+					"name" : "myInner3",
+					"nodeType" : "VariableDeclaration",
+					"scope" : 61,
+					"src" : "486:51:0",
+					"stateVariable" : true,
+					"storageLocation" : "default",
+					"typeDescriptions" : 
+					{
+						"typeIdentifier" : "t_contract$_Inner3WithEth_$81",
+						"typeString" : "contract Inner3WithEth"
+					},
+					"typeName" : 
+					{
+						"contractScope" : null,
+						"id" : 42,
+						"name" : "Inner3WithEth",
+						"nodeType" : "UserDefinedTypeName",
+						"referencedDeclaration" : 81,
+						"src" : "486:13:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_contract$_Inner3WithEth_$81",
+							"typeString" : "contract Inner3WithEth"
+						}
+					},
+					"value" : 
+					{
+						"argumentTypes" : null,
+						"arguments" : [],
+						"expression" : 
+						{
+							"argumentTypes" : [],
+							"id" : 44,
+							"isConstant" : false,
+							"isLValue" : false,
+							"isPure" : false,
+							"lValueRequested" : false,
+							"nodeType" : "NewExpression",
+							"src" : "518:17:0",
+							"typeDescriptions" : 
+							{
+								"typeIdentifier" : "t_function_creation_nonpayable$__$returns$_t_contract$_Inner3WithEth_$81_$",
+								"typeString" : "function () returns (contract Inner3WithEth)"
+							},
+							"typeName" : 
+							{
+								"contractScope" : null,
+								"id" : 43,
+								"name" : "Inner3WithEth",
+								"nodeType" : "UserDefinedTypeName",
+								"referencedDeclaration" : 81,
+								"src" : "522:13:0",
+								"typeDescriptions" : 
+								{
+									"typeIdentifier" : "t_contract$_Inner3WithEth_$81",
+									"typeString" : "contract Inner3WithEth"
+								}
+							}
+						},
+						"id" : 45,
+						"isConstant" : false,
+						"isLValue" : false,
+						"isPure" : false,
+						"kind" : "functionCall",
+						"lValueRequested" : false,
+						"names" : [],
+						"nodeType" : "FunctionCall",
+						"src" : "518:19:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_contract$_Inner3WithEth_$81",
+							"typeString" : "contract Inner3WithEth"
+						}
+					},
+					"visibility" : "public"
+				},
+				{
+					"body" : 
+					{
+						"id" : 59,
+						"nodeType" : "Block",
+						"src" : "599:70:0",
+						"statements" : 
+						[
+							{
+								"expression" : 
+								{
+									"argumentTypes" : null,
+									"arguments" : [],
+									"expression" : 
+									{
+										"argumentTypes" : [],
+										"arguments" : 
+										[
+											{
+												"argumentTypes" : null,
+												"expression" : 
+												{
+													"argumentTypes" : null,
+													"id" : 54,
+													"name" : "msg",
+													"nodeType" : "Identifier",
+													"overloadedDeclarations" : [],
+													"referencedDeclaration" : 129,
+													"src" : "650:3:0",
+													"typeDescriptions" : 
+													{
+														"typeIdentifier" : "t_magic_message",
+														"typeString" : "msg"
+													}
+												},
+												"id" : 55,
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : false,
+												"lValueRequested" : false,
+												"memberName" : "value",
+												"nodeType" : "MemberAccess",
+												"referencedDeclaration" : null,
+												"src" : "650:9:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_uint256",
+													"typeString" : "uint256"
+												}
+											}
+										],
+										"expression" : 
+										{
+											"argumentTypes" : 
+											[
+												{
+													"typeIdentifier" : "t_uint256",
+													"typeString" : "uint256"
+												}
+											],
+											"expression" : 
+											{
+												"argumentTypes" : null,
+												"expression" : 
+												{
+													"argumentTypes" : null,
+													"id" : 49,
+													"name" : "myInner3",
+													"nodeType" : "Identifier",
+													"overloadedDeclarations" : [],
+													"referencedDeclaration" : 46,
+													"src" : "609:8:0",
+													"typeDescriptions" : 
+													{
+														"typeIdentifier" : "t_contract$_Inner3WithEth_$81",
+														"typeString" : "contract Inner3WithEth"
+													}
+												},
+												"id" : 52,
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : false,
+												"lValueRequested" : false,
+												"memberName" : "callSomeFunctionViaInner3",
+												"nodeType" : "MemberAccess",
+												"referencedDeclaration" : 80,
+												"src" : "609:34:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_function_external_payable$__$returns$__$",
+													"typeString" : "function () payable external"
+												}
+											},
+											"id" : 53,
+											"isConstant" : false,
+											"isLValue" : false,
+											"isPure" : false,
+											"lValueRequested" : false,
+											"memberName" : "value",
+											"nodeType" : "MemberAccess",
+											"referencedDeclaration" : null,
+											"src" : "609:40:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_function_setvalue_nonpayable$_t_uint256_$returns$_t_function_external_payable$__$returns$__$value_$",
+												"typeString" : "function (uint256) returns (function () payable external)"
+											}
+										},
+										"id" : 56,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : false,
+										"kind" : "functionCall",
+										"lValueRequested" : false,
+										"names" : [],
+										"nodeType" : "FunctionCall",
+										"src" : "609:51:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_function_external_payable$__$returns$__$value",
+											"typeString" : "function () payable external"
+										}
+									},
+									"id" : 57,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"kind" : "functionCall",
+									"lValueRequested" : false,
+									"names" : [],
+									"nodeType" : "FunctionCall",
+									"src" : "609:53:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_tuple$__$",
+										"typeString" : "tuple()"
+									}
+								},
+								"id" : 58,
+								"nodeType" : "ExpressionStatement",
+								"src" : "609:53:0"
+							}
+						]
+					},
+					"documentation" : null,
+					"id" : 60,
+					"implemented" : true,
+					"isConstructor" : false,
+					"isDeclaredConst" : false,
+					"modifiers" : [],
+					"name" : "callSomeFunctionViaInner2",
+					"nodeType" : "FunctionDefinition",
+					"parameters" : 
+					{
+						"id" : 47,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "582:2:0"
+					},
+					"payable" : true,
+					"returnParameters" : 
+					{
+						"id" : 48,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "599:0:0"
+					},
+					"scope" : 61,
+					"src" : "548:121:0",
+					"stateMutability" : "payable",
+					"superFunction" : null,
+					"visibility" : "public"
+				}
+			],
+			"scope" : 115,
+			"src" : "457:214:0"
+		},
+		{
+			"baseContracts" : [],
+			"contractDependencies" : 
+			[
+				114
+			],
+			"contractKind" : "contract",
+			"documentation" : null,
+			"fullyImplemented" : true,
+			"id" : 81,
+			"linearizedBaseContracts" : 
+			[
+				81
+			],
+			"name" : "Inner3WithEth",
+			"nodeType" : "ContractDefinition",
+			"nodes" : 
+			[
+				{
+					"constant" : false,
+					"id" : 66,
+					"name" : "myInner4",
+					"nodeType" : "VariableDeclaration",
+					"scope" : 81,
+					"src" : "702:51:0",
+					"stateVariable" : true,
+					"storageLocation" : "default",
+					"typeDescriptions" : 
+					{
+						"typeIdentifier" : "t_contract$_Inner4WithEth_$114",
+						"typeString" : "contract Inner4WithEth"
+					},
+					"typeName" : 
+					{
+						"contractScope" : null,
+						"id" : 62,
+						"name" : "Inner4WithEth",
+						"nodeType" : "UserDefinedTypeName",
+						"referencedDeclaration" : 114,
+						"src" : "702:13:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_contract$_Inner4WithEth_$114",
+							"typeString" : "contract Inner4WithEth"
+						}
+					},
+					"value" : 
+					{
+						"argumentTypes" : null,
+						"arguments" : [],
+						"expression" : 
+						{
+							"argumentTypes" : [],
+							"id" : 64,
+							"isConstant" : false,
+							"isLValue" : false,
+							"isPure" : false,
+							"lValueRequested" : false,
+							"nodeType" : "NewExpression",
+							"src" : "734:17:0",
+							"typeDescriptions" : 
+							{
+								"typeIdentifier" : "t_function_creation_nonpayable$__$returns$_t_contract$_Inner4WithEth_$114_$",
+								"typeString" : "function () returns (contract Inner4WithEth)"
+							},
+							"typeName" : 
+							{
+								"contractScope" : null,
+								"id" : 63,
+								"name" : "Inner4WithEth",
+								"nodeType" : "UserDefinedTypeName",
+								"referencedDeclaration" : 114,
+								"src" : "738:13:0",
+								"typeDescriptions" : 
+								{
+									"typeIdentifier" : "t_contract$_Inner4WithEth_$114",
+									"typeString" : "contract Inner4WithEth"
+								}
+							}
+						},
+						"id" : 65,
+						"isConstant" : false,
+						"isLValue" : false,
+						"isPure" : false,
+						"kind" : "functionCall",
+						"lValueRequested" : false,
+						"names" : [],
+						"nodeType" : "FunctionCall",
+						"src" : "734:19:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_contract$_Inner4WithEth_$114",
+							"typeString" : "contract Inner4WithEth"
+						}
+					},
+					"visibility" : "public"
+				},
+				{
+					"body" : 
+					{
+						"id" : 79,
+						"nodeType" : "Block",
+						"src" : "815:56:0",
+						"statements" : 
+						[
+							{
+								"expression" : 
+								{
+									"argumentTypes" : null,
+									"arguments" : [],
+									"expression" : 
+									{
+										"argumentTypes" : [],
+										"arguments" : 
+										[
+											{
+												"argumentTypes" : null,
+												"expression" : 
+												{
+													"argumentTypes" : null,
+													"id" : 74,
+													"name" : "msg",
+													"nodeType" : "Identifier",
+													"overloadedDeclarations" : [],
+													"referencedDeclaration" : 129,
+													"src" : "852:3:0",
+													"typeDescriptions" : 
+													{
+														"typeIdentifier" : "t_magic_message",
+														"typeString" : "msg"
+													}
+												},
+												"id" : 75,
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : false,
+												"lValueRequested" : false,
+												"memberName" : "value",
+												"nodeType" : "MemberAccess",
+												"referencedDeclaration" : null,
+												"src" : "852:9:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_uint256",
+													"typeString" : "uint256"
+												}
+											}
+										],
+										"expression" : 
+										{
+											"argumentTypes" : 
+											[
+												{
+													"typeIdentifier" : "t_uint256",
+													"typeString" : "uint256"
+												}
+											],
+											"expression" : 
+											{
+												"argumentTypes" : null,
+												"expression" : 
+												{
+													"argumentTypes" : null,
+													"id" : 69,
+													"name" : "myInner4",
+													"nodeType" : "Identifier",
+													"overloadedDeclarations" : [],
+													"referencedDeclaration" : 66,
+													"src" : "825:8:0",
+													"typeDescriptions" : 
+													{
+														"typeIdentifier" : "t_contract$_Inner4WithEth_$114",
+														"typeString" : "contract Inner4WithEth"
+													}
+												},
+												"id" : 72,
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : false,
+												"lValueRequested" : false,
+												"memberName" : "doSomething",
+												"nodeType" : "MemberAccess",
+												"referencedDeclaration" : 100,
+												"src" : "825:20:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_function_external_payable$__$returns$__$",
+													"typeString" : "function () payable external"
+												}
+											},
+											"id" : 73,
+											"isConstant" : false,
+											"isLValue" : false,
+											"isPure" : false,
+											"lValueRequested" : false,
+											"memberName" : "value",
+											"nodeType" : "MemberAccess",
+											"referencedDeclaration" : null,
+											"src" : "825:26:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_function_setvalue_nonpayable$_t_uint256_$returns$_t_function_external_payable$__$returns$__$value_$",
+												"typeString" : "function (uint256) returns (function () payable external)"
+											}
+										},
+										"id" : 76,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : false,
+										"kind" : "functionCall",
+										"lValueRequested" : false,
+										"names" : [],
+										"nodeType" : "FunctionCall",
+										"src" : "825:37:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_function_external_payable$__$returns$__$value",
+											"typeString" : "function () payable external"
+										}
+									},
+									"id" : 77,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"kind" : "functionCall",
+									"lValueRequested" : false,
+									"names" : [],
+									"nodeType" : "FunctionCall",
+									"src" : "825:39:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_tuple$__$",
+										"typeString" : "tuple()"
+									}
+								},
+								"id" : 78,
+								"nodeType" : "ExpressionStatement",
+								"src" : "825:39:0"
+							}
+						]
+					},
+					"documentation" : null,
+					"id" : 80,
+					"implemented" : true,
+					"isConstructor" : false,
+					"isDeclaredConst" : false,
+					"modifiers" : [],
+					"name" : "callSomeFunctionViaInner3",
+					"nodeType" : "FunctionDefinition",
+					"parameters" : 
+					{
+						"id" : 67,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "798:2:0"
+					},
+					"payable" : true,
+					"returnParameters" : 
+					{
+						"id" : 68,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "815:0:0"
+					},
+					"scope" : 81,
+					"src" : "764:107:0",
+					"stateMutability" : "payable",
+					"superFunction" : null,
+					"visibility" : "public"
+				}
+			],
+			"scope" : 115,
+			"src" : "673:200:0"
+		},
+		{
+			"baseContracts" : [],
+			"contractDependencies" : [],
+			"contractKind" : "contract",
+			"documentation" : null,
+			"fullyImplemented" : true,
+			"id" : 114,
+			"linearizedBaseContracts" : 
+			[
+				114
+			],
+			"name" : "Inner4WithEth",
+			"nodeType" : "ContractDefinition",
+			"nodes" : 
+			[
+				{
+					"constant" : false,
+					"id" : 83,
+					"name" : "someValue",
+					"nodeType" : "VariableDeclaration",
+					"scope" : 114,
+					"src" : "904:17:0",
+					"stateVariable" : true,
+					"storageLocation" : "default",
+					"typeDescriptions" : 
+					{
+						"typeIdentifier" : "t_uint256",
+						"typeString" : "uint256"
+					},
+					"typeName" : 
+					{
+						"id" : 82,
+						"name" : "uint256",
+						"nodeType" : "ElementaryTypeName",
+						"src" : "904:7:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_uint256",
+							"typeString" : "uint256"
+						}
+					},
+					"value" : null,
+					"visibility" : "internal"
+				},
+				{
+					"anonymous" : false,
+					"documentation" : null,
+					"id" : 87,
+					"name" : "SetValue",
+					"nodeType" : "EventDefinition",
+					"parameters" : 
+					{
+						"id" : 86,
+						"nodeType" : "ParameterList",
+						"parameters" : 
+						[
+							{
+								"constant" : false,
+								"id" : 85,
+								"indexed" : false,
+								"name" : "val",
+								"nodeType" : "VariableDeclaration",
+								"scope" : 87,
+								"src" : "942:11:0",
+								"stateVariable" : false,
+								"storageLocation" : "default",
+								"typeDescriptions" : 
+								{
+									"typeIdentifier" : "t_uint256",
+									"typeString" : "uint256"
+								},
+								"typeName" : 
+								{
+									"id" : 84,
+									"name" : "uint256",
+									"nodeType" : "ElementaryTypeName",
+									"src" : "942:7:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_uint256",
+										"typeString" : "uint256"
+									}
+								},
+								"value" : null,
+								"visibility" : "internal"
+							}
+						],
+						"src" : "941:13:0"
+					},
+					"src" : "927:28:0"
+				},
+				{
+					"body" : 
+					{
+						"id" : 99,
+						"nodeType" : "Block",
+						"src" : "1003:78:0",
+						"statements" : 
+						[
+							{
+								"expression" : 
+								{
+									"argumentTypes" : null,
+									"id" : 93,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"lValueRequested" : false,
+									"leftHandSide" : 
+									{
+										"argumentTypes" : null,
+										"id" : 90,
+										"name" : "someValue",
+										"nodeType" : "Identifier",
+										"overloadedDeclarations" : [],
+										"referencedDeclaration" : 83,
+										"src" : "1013:9:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_uint256",
+											"typeString" : "uint256"
+										}
+									},
+									"nodeType" : "Assignment",
+									"operator" : "=",
+									"rightHandSide" : 
+									{
+										"argumentTypes" : null,
+										"expression" : 
+										{
+											"argumentTypes" : null,
+											"id" : 91,
+											"name" : "block",
+											"nodeType" : "Identifier",
+											"overloadedDeclarations" : [],
+											"referencedDeclaration" : 119,
+											"src" : "1025:5:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_magic_block",
+												"typeString" : "block"
+											}
+										},
+										"id" : 92,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : false,
+										"lValueRequested" : false,
+										"memberName" : "timestamp",
+										"nodeType" : "MemberAccess",
+										"referencedDeclaration" : null,
+										"src" : "1025:15:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_uint256",
+											"typeString" : "uint256"
+										}
+									},
+									"src" : "1013:27:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_uint256",
+										"typeString" : "uint256"
+									}
+								},
+								"id" : 94,
+								"nodeType" : "ExpressionStatement",
+								"src" : "1013:27:0"
+							},
+							{
+								"eventCall" : 
+								{
+									"argumentTypes" : null,
+									"arguments" : 
+									[
+										{
+											"argumentTypes" : null,
+											"id" : 96,
+											"name" : "someValue",
+											"nodeType" : "Identifier",
+											"overloadedDeclarations" : [],
+											"referencedDeclaration" : 83,
+											"src" : "1064:9:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_uint256",
+												"typeString" : "uint256"
+											}
+										}
+									],
+									"expression" : 
+									{
+										"argumentTypes" : 
+										[
+											{
+												"typeIdentifier" : "t_uint256",
+												"typeString" : "uint256"
+											}
+										],
+										"id" : 95,
+										"name" : "SetValue",
+										"nodeType" : "Identifier",
+										"overloadedDeclarations" : [],
+										"referencedDeclaration" : 87,
+										"src" : "1055:8:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_function_event_nonpayable$_t_uint256_$returns$__$",
+											"typeString" : "function (uint256)"
+										}
+									},
+									"id" : 97,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"kind" : "functionCall",
+									"lValueRequested" : false,
+									"names" : [],
+									"nodeType" : "FunctionCall",
+									"src" : "1055:19:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_tuple$__$",
+										"typeString" : "tuple()"
+									}
+								},
+								"id" : 98,
+								"nodeType" : "EmitStatement",
+								"src" : "1050:24:0"
+							}
+						]
+					},
+					"documentation" : null,
+					"id" : 100,
+					"implemented" : true,
+					"isConstructor" : false,
+					"isDeclaredConst" : false,
+					"modifiers" : [],
+					"name" : "doSomething",
+					"nodeType" : "FunctionDefinition",
+					"parameters" : 
+					{
+						"id" : 88,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "985:2:0"
+					},
+					"payable" : true,
+					"returnParameters" : 
+					{
+						"id" : 89,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "1003:0:0"
+					},
+					"scope" : 114,
+					"src" : "965:116:0",
+					"stateMutability" : "payable",
+					"superFunction" : null,
+					"visibility" : "public"
+				},
+				{
+					"body" : 
+					{
+						"id" : 112,
+						"nodeType" : "Block",
+						"src" : "1124:50:0",
+						"statements" : 
+						[
+							{
+								"expression" : 
+								{
+									"argumentTypes" : null,
+									"arguments" : 
+									[
+										{
+											"argumentTypes" : null,
+											"expression" : 
+											{
+												"argumentTypes" : null,
+												"id" : 108,
+												"name" : "this",
+												"nodeType" : "Identifier",
+												"overloadedDeclarations" : [],
+												"referencedDeclaration" : 150,
+												"src" : "1154:4:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_contract$_Inner4WithEth_$114",
+													"typeString" : "contract Inner4WithEth"
+												}
+											},
+											"id" : 109,
+											"isConstant" : false,
+											"isLValue" : false,
+											"isPure" : false,
+											"lValueRequested" : false,
+											"memberName" : "balance",
+											"nodeType" : "MemberAccess",
+											"referencedDeclaration" : null,
+											"src" : "1154:12:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_uint256",
+												"typeString" : "uint256"
+											}
+										}
+									],
+									"expression" : 
+									{
+										"argumentTypes" : 
+										[
+											{
+												"typeIdentifier" : "t_uint256",
+												"typeString" : "uint256"
+											}
+										],
+										"expression" : 
+										{
+											"argumentTypes" : null,
+											"expression" : 
+											{
+												"argumentTypes" : null,
+												"id" : 103,
+												"name" : "msg",
+												"nodeType" : "Identifier",
+												"overloadedDeclarations" : [],
+												"referencedDeclaration" : 129,
+												"src" : "1134:3:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_magic_message",
+													"typeString" : "msg"
+												}
+											},
+											"id" : 106,
+											"isConstant" : false,
+											"isLValue" : false,
+											"isPure" : false,
+											"lValueRequested" : false,
+											"memberName" : "sender",
+											"nodeType" : "MemberAccess",
+											"referencedDeclaration" : null,
+											"src" : "1134:10:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_address",
+												"typeString" : "address"
+											}
+										},
+										"id" : 107,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : false,
+										"lValueRequested" : false,
+										"memberName" : "transfer",
+										"nodeType" : "MemberAccess",
+										"referencedDeclaration" : null,
+										"src" : "1134:19:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_function_transfer_nonpayable$_t_uint256_$returns$__$",
+											"typeString" : "function (uint256)"
+										}
+									},
+									"id" : 110,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"kind" : "functionCall",
+									"lValueRequested" : false,
+									"names" : [],
+									"nodeType" : "FunctionCall",
+									"src" : "1134:33:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_tuple$__$",
+										"typeString" : "tuple()"
+									}
+								},
+								"id" : 111,
+								"nodeType" : "ExpressionStatement",
+								"src" : "1134:33:0"
+							}
+						]
+					},
+					"documentation" : null,
+					"id" : 113,
+					"implemented" : true,
+					"isConstructor" : false,
+					"isDeclaredConst" : false,
+					"modifiers" : [],
+					"name" : "getAllMoneyOut",
+					"nodeType" : "FunctionDefinition",
+					"parameters" : 
+					{
+						"id" : 101,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "1114:2:0"
+					},
+					"payable" : false,
+					"returnParameters" : 
+					{
+						"id" : 102,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "1124:0:0"
+					},
+					"scope" : 114,
+					"src" : "1091:83:0",
+					"stateMutability" : "nonpayable",
+					"superFunction" : null,
+					"visibility" : "public"
+				}
+			],
+			"scope" : 115,
+			"src" : "875:301:0"
+		}
+	],
+	"src" : "0:1176:0"
+}

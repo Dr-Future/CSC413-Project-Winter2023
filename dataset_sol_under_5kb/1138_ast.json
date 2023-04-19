@@ -1,0 +1,370 @@
+JSON AST (compact format):
+
+
+======= .//solidity_dataset_curated//ether_frozen\1138.sol =======
+{
+	"absolutePath" : ".//solidity_dataset_curated//ether_frozen\\1138.sol",
+	"exportedSymbols" : 
+	{
+		"Destroy" : 
+		[
+			22
+		]
+	},
+	"id" : 23,
+	"nodeType" : "SourceUnit",
+	"nodes" : 
+	[
+		{
+			"id" : 1,
+			"literals" : 
+			[
+				"solidity",
+				"^",
+				"0.4",
+				".23"
+			],
+			"nodeType" : "PragmaDirective",
+			"src" : "0:24:0"
+		},
+		{
+			"baseContracts" : [],
+			"contractDependencies" : [],
+			"contractKind" : "contract",
+			"documentation" : null,
+			"fullyImplemented" : true,
+			"id" : 22,
+			"linearizedBaseContracts" : 
+			[
+				22
+			],
+			"name" : "Destroy",
+			"nodeType" : "ContractDefinition",
+			"nodes" : 
+			[
+				{
+					"body" : 
+					{
+						"id" : 20,
+						"nodeType" : "Block",
+						"src" : "131:81:0",
+						"statements" : 
+						[
+							{
+								"expression" : 
+								{
+									"argumentTypes" : null,
+									"id" : 18,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"lValueRequested" : false,
+									"leftHandSide" : 
+									{
+										"argumentTypes" : null,
+										"id" : 8,
+										"name" : "_ans",
+										"nodeType" : "Identifier",
+										"overloadedDeclarations" : [],
+										"referencedDeclaration" : 6,
+										"src" : "143:4:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_bool",
+											"typeString" : "bool"
+										}
+									},
+									"nodeType" : "Assignment",
+									"operator" : "=",
+									"rightHandSide" : 
+									{
+										"argumentTypes" : null,
+										"arguments" : 
+										[
+											{
+												"argumentTypes" : null,
+												"arguments" : 
+												[
+													{
+														"argumentTypes" : null,
+														"arguments" : 
+														[
+															{
+																"argumentTypes" : null,
+																"hexValue" : "6164647265737329",
+																"id" : 13,
+																"isConstant" : false,
+																"isLValue" : false,
+																"isPure" : true,
+																"kind" : "string",
+																"lValueRequested" : false,
+																"nodeType" : "Literal",
+																"src" : "183:10:0",
+																"subdenomination" : null,
+																"typeDescriptions" : 
+																{
+																	"typeIdentifier" : "t_stringliteral_4761dcc2e9c0388ad3ba69dfc8036082eb4b56b64eb15572f714933e3cc0fea2",
+																	"typeString" : "literal_string \"address)\""
+																},
+																"value" : "address)"
+															}
+														],
+														"expression" : 
+														{
+															"argumentTypes" : 
+															[
+																{
+																	"typeIdentifier" : "t_stringliteral_4761dcc2e9c0388ad3ba69dfc8036082eb4b56b64eb15572f714933e3cc0fea2",
+																	"typeString" : "literal_string \"address)\""
+																}
+															],
+															"id" : 12,
+															"name" : "sha3",
+															"nodeType" : "Identifier",
+															"overloadedDeclarations" : [],
+															"referencedDeclaration" : 47,
+															"src" : "178:4:0",
+															"typeDescriptions" : 
+															{
+																"typeIdentifier" : "t_function_sha3_pure$__$returns$_t_bytes32_$",
+																"typeString" : "function () pure returns (bytes32)"
+															}
+														},
+														"id" : 14,
+														"isConstant" : false,
+														"isLValue" : false,
+														"isPure" : true,
+														"kind" : "functionCall",
+														"lValueRequested" : false,
+														"names" : [],
+														"nodeType" : "FunctionCall",
+														"src" : "178:16:0",
+														"typeDescriptions" : 
+														{
+															"typeIdentifier" : "t_bytes32",
+															"typeString" : "bytes32"
+														}
+													}
+												],
+												"expression" : 
+												{
+													"argumentTypes" : 
+													[
+														{
+															"typeIdentifier" : "t_bytes32",
+															"typeString" : "bytes32"
+														}
+													],
+													"id" : 11,
+													"isConstant" : false,
+													"isLValue" : false,
+													"isPure" : true,
+													"lValueRequested" : false,
+													"nodeType" : "ElementaryTypeNameExpression",
+													"src" : "171:6:0",
+													"typeDescriptions" : 
+													{
+														"typeIdentifier" : "t_type$_t_bytes4_$",
+														"typeString" : "type(bytes4)"
+													},
+													"typeName" : "bytes4"
+												},
+												"id" : 15,
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : true,
+												"kind" : "typeConversion",
+												"lValueRequested" : false,
+												"names" : [],
+												"nodeType" : "FunctionCall",
+												"src" : "171:24:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_bytes4",
+													"typeString" : "bytes4"
+												}
+											},
+											{
+												"argumentTypes" : null,
+												"id" : 16,
+												"name" : "this",
+												"nodeType" : "Identifier",
+												"overloadedDeclarations" : [],
+												"referencedDeclaration" : 50,
+												"src" : "197:4:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_contract$_Destroy_$22",
+													"typeString" : "contract Destroy"
+												}
+											}
+										],
+										"expression" : 
+										{
+											"argumentTypes" : 
+											[
+												{
+													"typeIdentifier" : "t_bytes4",
+													"typeString" : "bytes4"
+												},
+												{
+													"typeIdentifier" : "t_contract$_Destroy_$22",
+													"typeString" : "contract Destroy"
+												}
+											],
+											"expression" : 
+											{
+												"argumentTypes" : null,
+												"id" : 9,
+												"name" : "_target",
+												"nodeType" : "Identifier",
+												"overloadedDeclarations" : [],
+												"referencedDeclaration" : 3,
+												"src" : "150:7:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_address",
+													"typeString" : "address"
+												}
+											},
+											"id" : 10,
+											"isConstant" : false,
+											"isLValue" : false,
+											"isPure" : false,
+											"lValueRequested" : false,
+											"memberName" : "delegatecall",
+											"nodeType" : "MemberAccess",
+											"referencedDeclaration" : null,
+											"src" : "150:20:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_function_baredelegatecall_nonpayable$__$returns$_t_bool_$",
+												"typeString" : "function () returns (bool)"
+											}
+										},
+										"id" : 17,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : false,
+										"kind" : "functionCall",
+										"lValueRequested" : false,
+										"names" : [],
+										"nodeType" : "FunctionCall",
+										"src" : "150:52:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_bool",
+											"typeString" : "bool"
+										}
+									},
+									"src" : "143:59:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_bool",
+										"typeString" : "bool"
+									}
+								},
+								"id" : 19,
+								"nodeType" : "ExpressionStatement",
+								"src" : "143:59:0"
+							}
+						]
+					},
+					"documentation" : null,
+					"id" : 21,
+					"implemented" : true,
+					"isConstructor" : false,
+					"isDeclaredConst" : false,
+					"modifiers" : [],
+					"name" : "delegatecall_selfdestruct",
+					"nodeType" : "FunctionDefinition",
+					"parameters" : 
+					{
+						"id" : 4,
+						"nodeType" : "ParameterList",
+						"parameters" : 
+						[
+							{
+								"constant" : false,
+								"id" : 3,
+								"name" : "_target",
+								"nodeType" : "VariableDeclaration",
+								"scope" : 21,
+								"src" : "85:15:0",
+								"stateVariable" : false,
+								"storageLocation" : "default",
+								"typeDescriptions" : 
+								{
+									"typeIdentifier" : "t_address",
+									"typeString" : "address"
+								},
+								"typeName" : 
+								{
+									"id" : 2,
+									"name" : "address",
+									"nodeType" : "ElementaryTypeName",
+									"src" : "85:7:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_address",
+										"typeString" : "address"
+									}
+								},
+								"value" : null,
+								"visibility" : "internal"
+							}
+						],
+						"src" : "84:17:0"
+					},
+					"payable" : false,
+					"returnParameters" : 
+					{
+						"id" : 7,
+						"nodeType" : "ParameterList",
+						"parameters" : 
+						[
+							{
+								"constant" : false,
+								"id" : 6,
+								"name" : "_ans",
+								"nodeType" : "VariableDeclaration",
+								"scope" : 21,
+								"src" : "120:9:0",
+								"stateVariable" : false,
+								"storageLocation" : "default",
+								"typeDescriptions" : 
+								{
+									"typeIdentifier" : "t_bool",
+									"typeString" : "bool"
+								},
+								"typeName" : 
+								{
+									"id" : 5,
+									"name" : "bool",
+									"nodeType" : "ElementaryTypeName",
+									"src" : "120:4:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_bool",
+										"typeString" : "bool"
+									}
+								},
+								"value" : null,
+								"visibility" : "internal"
+							}
+						],
+						"src" : "119:11:0"
+					},
+					"scope" : 22,
+					"src" : "50:162:0",
+					"stateMutability" : "nonpayable",
+					"superFunction" : null,
+					"visibility" : "external"
+				}
+			],
+			"scope" : 23,
+			"src" : "26:188:0"
+		}
+	],
+	"src" : "0:214:0"
+}
